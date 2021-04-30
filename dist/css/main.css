@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #1c2431;
+  padding-top: 1rem;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo {
+  max-width: 100px;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item {
+  list-style: none;
+  margin-left: 1.5rem;
+}
+
+.nav__link {
+  font-size: 1.2rem;
+}
+
+.hero {
+  background-color: #1c2431;
+  background-image: url(../dist/images/bg-curvy-mobile.svg);
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero__text {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero__text h1 {
+  font-size: 2.2rem;
+}
+
+.hero__text p {
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+.cta {
+  padding: 1em 6em;
+  border-radius: 3rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+}
+
+section,
+footer {
+  background-color: #181f2a;
+}
+
+.about {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.about__card {
+  padding: 2rem;
+}
+
+.about__card p {
+  padding: 0 2rem;
+}
+
+.about__card img {
+  margin: 2rem 0 2rem;
+}
+
+.about__productive {
+  margin-top: 4rem;
+  text-align: left;
+}
+
+.about__productive-img {
+  width: 100%;
+}
+
+.about__productive-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid white;
+}
+
+.testimonials {
+  padding-top: 10rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+.cta,
+.nav {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */

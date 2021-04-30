@@ -1,0 +1,29 @@
+.header {
+    background-color: $dark-blue1;
+    padding-top: 1rem;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+}
+
+.nav {
+    &__menu {
+        display: flex;
+    }
+
+    &__item {
+        list-style: none;
+        margin-left: 1.5rem;
+    }
+
+    &__link {
+        font-size: 1.2rem;
+    }
+}

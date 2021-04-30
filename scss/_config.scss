@@ -1,0 +1,22 @@
+// primary colors
+$dark-blue1: hsl(217, 28%, 15%);
+$dark-blue2: hsl(218, 28%, 13%);
+$dark-blue3: hsl(216, 53%, 9%);
+$dark-blue4: hsl(219, 30%, 18%);
+
+$primary: hsl(0, 0%, 100%);
+
+$light-red: hsl(0, 100%, 63%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: $primary;
+    cursor: pointer;
+}

@@ -1,0 +1,80 @@
+.hero {
+    background-color: $dark-blue1;
+    background-image: url(../dist/images/bg-curvy-mobile.svg);
+    text-align: center;
+    padding-bottom: 5rem;
+
+    img {
+        width: 100%;
+    }
+
+    &__text {
+        max-width: 500px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        p {
+            width: 80%;
+            margin: 1.5rem auto;
+        }
+    }
+}
+
+.cta {
+    padding: 1em 6em;
+    border-radius: 3rem;
+    background-image: 
+        linear-gradient(
+            to right,
+            hsl(176, 68%, 64%),
+            hsl(198, 60%, 50%),
+        );
+}
+
+section,
+footer {
+    background-color: $dark-blue2;
+}
+
+.about {
+    text-align: center;
+    padding-bottom: 2rem;
+
+    &__card {
+        padding: 2rem;
+
+        p {
+            padding: 0 2rem;
+        }
+
+        img {
+            margin: 2rem 0 2rem;
+        }
+    }
+
+    
+
+    &__productive {
+        margin-top: 4rem;
+        text-align: left;
+
+        &-img {
+            width: 100%;
+        }
+
+        &-cta {
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            padding-bottom: .5rem;
+            border-bottom: 1px solid $primary;
+        }
+    }
+}
+
+.testimonials {
+    padding-top: 10rem;
+}
