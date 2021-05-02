@@ -1,9 +1,10 @@
-@import 'config', 'menu', 'home';
+@import 'config', 'menu', 'home', 'responsive';
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: $primary;
+    background-color: $dark-blue2;
 }
 
 a {

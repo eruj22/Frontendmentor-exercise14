@@ -20,3 +20,21 @@ button {
     color: $primary;
     cursor: pointer;
 }
+
+@mixin media-md {
+    @media screen and (min-width: 800px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
